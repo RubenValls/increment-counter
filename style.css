@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    margin: 0;
+    background-color: #8E44AD;
+}
+
+.container{
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.container > .social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
