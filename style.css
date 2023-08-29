@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Roboto+Mono:wght@300&display=swap');
+
 body{
     display: flex;
     margin: 0;
-    background-color: #8E44AD;
+    background-color: #cfebb6;
+    color: black;
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 24px;
 }
 
 .container{
     width: 100vw;
-    height: 300px;
+    max-width: 800px;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -20,4 +26,19 @@ body{
     justify-content: center;
     align-items: center;
     margin: auto;
+    padding: 40px;
+}
+
+.social i{
+    margin-bottom: 10px;
+}
+
+.social h1{
+    margin-bottom: 20px;
+}
+
+.social h2{
+    margin: 0;
+    font-size: 0.65em;
+    font-weight: 100;
 }
